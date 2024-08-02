@@ -1,0 +1,198 @@
+@font-face {
+  font-family: Product Sans;
+  src: url(Product\ Sans\ Regular.ttf);
+}
+@font-face {
+  font-family: Product Sans b;
+  src: url(Product\ Sans\ Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Product Sans;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+ 
+}
+#main {
+  width: 100%;
+  height: 100vh;
+  background:linear-gradient(150deg, rgb(255, 166, 0), rgb(255, 94, 0));
+  
+}
+nav {
+  width: 100%;
+  height: 10vh;
+ position: fixed;
+ z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10vw;
+  /* background:linear-gradient(150deg,orange,rgb(255, 85, 0)) ; */
+}
+nav a {
+  text-decoration: none;
+  font-size: 1.2vw;
+  color: #fff;
+  font-family: Product Sans;
+}
+nav i {
+  font-size: 1.2vw;
+  color: #fff;
+}
+#center-nav {
+  display: flex;
+  gap: 2vw;
+}
+.one{
+    width: 100%;
+   height: 100vh;
+    background:linear-gradient(150deg, rgb(255, 166, 0), rgb(255, 94, 0)); 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#fanta{
+    width: 40%;
+    position: absolute;
+    z-index: 2;
+
+}
+#orange-cut{
+    width: 15%;
+    position: absolute;
+    z-index: 1;
+    left: 35%;
+    top: 9%;
+}
+#oranges{
+    width: 20%;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    z-index: 3;
+}
+.one h1{
+    font-size: 25vw;
+    color: #fff;
+    position: absolute;
+    font-family: Product Sans;
+    
+}
+#leaf{
+    width: 15%;
+    position: absolute;
+    transform: rotate(50deg);
+    left: 4%;
+    top: 22%;
+}
+#coconoutleaf{
+    width: 20%;
+    position: absolute;
+    top: 5%;
+    right: 0%;
+}
+.two{
+    height: 100vh;
+    width: 100%;
+    background:#4d231c ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(169, 45, 45); */
+}
+.left svg{
+    width: 60%;
+ 
+    transform: rotateX(50deg);
+    margin-top: 35%;
+    margin-left: 20%;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(150, 102, 102); */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5%;
+    
+}
+.right p{
+        width: 70%;
+        color: #fff;
+
+}
+.right h1{
+    color: #fff;
+    font-size: 4vw;
+}
+.three{
+    height: 100vh;
+    width: 100%;
+    background-color: #4d231c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    gap: 3vw;
+    background:linear-gradient(150deg, rgb(255, 166, 0), rgb(255, 94, 0)); 
+    padding: 0 5vw;
+}
+.cards{
+    height: 70vh;
+    margin-top: 10%;
+    width: 30vw;
+    background-color: #fff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vw;
+    /* backdrop-filter: drop-shadow(4px 4px 10px blue); */
+}
+.cards h1{
+    margin-top: 20vw;
+    text-transform: capitalize;
+    font-size: 3.5vw;
+}
+.cards button{
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+    background:linear-gradient(150deg, rgb(255, 166, 0), rgb(255, 94, 0)); 
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;    
+}
+#sprite{
+    position: absolute;
+    top: 17%;
+}
+#sprite-back{
+    position: absolute;
+    width: 30%;
+    top: 10%;
+    transform: rotate(10deg);
+}
+#pepsi{
+    width: 20%;
+    position: absolute;
+    top: 15%;
+}
+#logo-pepsi{
+    position: absolute;
+    top: 10%;
+}
